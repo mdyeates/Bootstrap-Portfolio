@@ -1,0 +1,104 @@
+/* || VARIABLES */
+:root {
+    --black: rgb(6,6,6);
+    --grey: #161618;
+    --turqoise: #17b890;
+    --white: #fff;
+
+}
+
+
+/* || GLOBAL */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3.8rem;
+
+}
+
+body {
+    font-family: 'Inter';
+    background-color: var(--black);
+}
+
+.my {
+    color: #17B890;
+}
+
+/* || CUSTOM STYLES */
+
+/* Jumbotron */
+.name {
+    height: 100vh;
+    background-color: var(--grey);
+    background-image: url(/images/nameimagebw.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.profilePhoto {
+    height: 20em;
+}
+
+.name .btn {
+    color: var(--turqoise);
+    border: 2px var(--turqoise) solid;
+    margin-top: 20px;
+}
+
+/* Header */
+.navbar {
+    background-color: var(--black);
+}
+
+.navbar-toggler {
+    color: var(--white);
+}
+
+.dropdown-menu {
+    margin-right: 12rem;
+}
+
+.dropdown-item {
+    color:var(--turqoise)
+}
+
+/* Projects */
+.card {
+    width: 30rem;
+}
+
+
+/* Story, Skills, Contact */
+.about {
+    height: 85vh;
+    background-color: var(--grey);
+    background-image: url(/images/nameimagebw.jpg);
+    background-position:top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+/* Story */
+
+.skillText {
+    font-size: 10px;
+}
+
+
+/* Footer */
+
+.footer {
+    height: 10vh;
+    background-color:var(--black);
+}
+
+.footer .copyright {
+    color: var(--white);
+}
+
+.footer .fa-brands {
+    color: var(--turqoise);
+}
