@@ -49,7 +49,7 @@ body {
 /* Jumbotron */
 .nameHero {
     height: 100vh;
-    background-image: url(/images/nameimagebw.jpg);
+    background-image: url(../images/nameimagebw.jpg);
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -71,8 +71,6 @@ body {
 
 .myHero {
     animation: nameEntrance 3s ease-in-out;
-
-
 }
 
 .profilePhoto {
@@ -89,7 +87,7 @@ body {
 }
 
   .smoke {
-    background:transparent url(/images/smoke.png) repeat top center;
+    background:transparent url(../images/smoke.png) repeat top center;
     background-attachment: fixed;
     opacity: 0.35;
     animation:nameSmoke 200s linear infinite;
@@ -130,8 +128,7 @@ body {
 /* Story, Skills, Contact */
 .about {
     height: 85vh;
-    background-color: var(--grey);
-    background-image: url(/images/nameimagebw.jpg);
+    background-image: url(../images/nameimagebw.jpg);
     background-position:top;
     background-size:cover;
     background-repeat: no-repeat;
