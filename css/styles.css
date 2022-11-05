@@ -4,7 +4,27 @@
     --grey: #161618;
     --turqoise: #17b890;
     --white: #fff;
+}
 
+/* || ANIMATIONS */
+@keyframes nameEntrance {
+    from {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+    to {
+        opacity: 1;
+        transform: scale (1.0);
+    }
+}
+
+@keyframes nameSmoke {
+    from {
+        background-position:0 0;
+    }
+    to {
+        background-position:10000px 0;
+    }
 }
 
 
@@ -27,9 +47,8 @@ body {
 /* || CUSTOM STYLES */
 
 /* Jumbotron */
-.name {
+.nameHero {
     height: 100vh;
-    background-color: var(--grey);
     background-image: url(/images/nameimagebw.jpg);
     background-position:center;
     background-size:cover;
@@ -37,15 +56,53 @@ body {
     background-attachment:fixed;
 }
 
+.nameHero h1 {
+    animation: nameEntrance 1.75s ease-in-out;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 2;
+}
+
+.nameHero p {
+    animation: nameEntrance 1.75s ease-in-out;
+    position: relative;
+    z-index: 2;
+}
+
+.myHero {
+    animation: nameEntrance 3s ease-in-out;
+
+
+}
+
 .profilePhoto {
     height: 20em;
 }
 
-.name .btn {
+.nameHero .btn {
     color: var(--turqoise);
     border: 2px var(--turqoise) solid;
     margin-top: 20px;
+    animation: nameEntrance 1.75s ease-in-out;
+    position:relative;
+    z-index: 2;
 }
+
+  .smoke {
+    background:transparent url(/images/smoke.png) repeat top center;
+    background-attachment: fixed;
+    opacity: 0.35;
+    animation:nameSmoke 200s linear infinite;
+    position:absolute;
+    top:0;
+    left:0px;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
+  }
+  
 
 /* Header */
 .navbar {
@@ -86,7 +143,6 @@ body {
 .skillText {
     font-size: 10px;
 }
-
 
 /* Footer */
 
