@@ -82,6 +82,8 @@ html {
 body {
     font-family: 'Inter';
     background-color: var(--black);
+    width: auto !important;
+    overflow-x: hidden !important;
 }
 
 .my {
@@ -176,6 +178,8 @@ body {
 }
 
 /* Projects */
+
+
 .cardProject {
     background-color: var(--grey);
     color: var(--white);
