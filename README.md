@@ -1,4 +1,4 @@
-# Portfolio using Bootstrap
+# Portfolio using Bootstrap 4.4
 ## Description
 
 To familiarise myself with Bootstrap, I recreated my portfolio website while limiting the use of media queries, and I decided to go with a dark aesthetic and a 'moody' design. In order to achieve this, I learned how to add a 'parallax' effect and a smoke animation. I included a couple hover effects to highlight several features, buttons, or links.
