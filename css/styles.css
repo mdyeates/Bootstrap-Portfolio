@@ -56,12 +56,11 @@
 .navbar-nav a:hover{
     border-bottom: 0.1px var(--turqoise) solid;
     box-shadow: rgba(3, 255, 133, 0.1) 0px 14px 16px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
 }
 
 .cardProject:hover {
-    scale:1.01;
-    border: 5px double var(--turqoise); 
+    scale:1;
+    border: 2px solid var(--turqoise); 
     transform: translateY(-5px);
 }
 
@@ -72,16 +71,12 @@
 
 .static:hover {
     opacity: 0;
-
 }
-
-
 
 /* || GLOBAL */
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 3.8rem;
-
 }
 
 body {
@@ -92,8 +87,6 @@ body {
 .my {
     color: #17B890;
 }
-
-
 
 /* || CUSTOM STYLES */
 
@@ -154,7 +147,7 @@ body {
     width:100%;
     height:100%;
     display:block;
-  }
+}
   
 
 /* Header */
@@ -222,7 +215,6 @@ body {
 
 .footer {
     height: 10vh;
-    background-color:var(--black);
 }
 
 .footer .copyright {
