@@ -49,7 +49,7 @@
 
 .cardProject:hover {
     scale:1.01;
-    border-bottom: 5px double var(--turqoise); 
+    border: 5px double var(--turqoise); 
     transform: translateY(-5px);
 }
 
@@ -92,6 +92,7 @@ body {
     background-position:center;
     background-size:cover;
     background-attachment:fixed;
+    background-repeat:no-repeat;
     background-color: var(--black);
 }
 
@@ -133,7 +134,7 @@ body {
     animation:nameSmoke 200s linear infinite;
     position:absolute;
     top:0;
-    left:0px;
+    left:0;
     right:0;
     bottom:0;
     width:100%;
@@ -171,11 +172,17 @@ body {
 .cardProject {
     background-color: var(--grey);
     color: var(--white);
-    transition: 0.25s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 
 .static {
     position: absolute;
+    transition: 1s ease-in-out;
+}
+
+.card-img-top {
+    height: 40vh;
+    object-fit: cover;
 }
 
 /* Story, Skills, Contact */
@@ -211,4 +218,15 @@ body {
 .footer .fa-brands {
     color: var(--turqoise);
     transition: 0.5s;
+}
+
+/* Media Queries */
+@media (max-width:576px) {
+    .about, .nameHero, .smoke {
+        background-image: none;
+    }
+    
+    .card-text {
+        font-size: 12px
+    }
 }
