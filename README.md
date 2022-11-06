@@ -1,12 +1,11 @@
 # Portfolio Website | Bootstrap 4.4
 ## Description
 
-To familiarise myself with Bootstrap, I recreated my portfolio website while limiting the use of media queries, and I decided to go with a dark aesthetic and a 'moody' design. In order to achieve this, I learned how to add a 'parallax' effect and a smoke animation. I included a couple hover effects to highlight several features, buttons, or links.
+To familiarise myself with the Bootstrap Framework, I recreated my portfolio website while limiting the use of media queries, and I decided to go with a dark aesthetic and a 'moody' design. In order to achieve this, I learned how to add a 'parallax' effect and a smoke animation. I included a couple hover effects to highlight several features, buttons, or links.
 
 Summary:
  
-* When scrolling down the page, a sticky navigation bar remains at the top of the page
-* There is a dropdown that allows you to access my portfolio projects and links to the appropriate sections
+* There is a navigation bar with a dropdown that allows you to access my portfolio projects and links to the appropriate sections
 * A hero/jumbotron section highlighting my name and a compressed image
 * Each project is described in the portfolio section using bootstrap cards and grid
 * The skills I expect to learn are displayed with Iconify Icons

@@ -26,6 +26,7 @@
         background-position:10000px 0;
     }
 }
+
 @keyframes bouncing {
 	0%, 100%, 20%, 50%, 80% {
 		transform:         translateY(0)
@@ -77,13 +78,13 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 3.8rem;
+    overflow-x: hidden;
 }
 
 body {
     font-family: 'Inter';
     background-color: var(--black);
-    width: auto !important;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
 }
 
 .my {
@@ -91,7 +92,6 @@ body {
 }
 
 /* || CUSTOM STYLES */
-
 /* Jumbotron */
 .nameHero {
     height: 100vh;
@@ -150,7 +150,6 @@ body {
     height:100%;
     display:block;
 }
-  
 
 /* Header */
 .navbar {
@@ -176,19 +175,12 @@ body {
 .logo {
     transition: 0.5s;
 }
-
+  
 /* Projects */
-
-
 .cardProject {
     background-color: var(--grey);
     color: var(--white);
     transition: 0.1s ease-in-out;
-}
-
-.static {
-    position: absolute;
-    transition: 1s ease-in-out;
 }
 
 .card-img-top {
@@ -196,7 +188,12 @@ body {
     object-fit: cover;
 }
 
-/* Story, Skills, Contact */
+.static {
+    position: absolute;
+    transition: 1s ease-in-out;
+}
+
+/* Story*/
 .about {
     height: 100vh;
     background-image: url(../images/nameimagebw-min.jpg);
@@ -216,16 +213,15 @@ body {
 }
 
 /* Footer */
-
 .footer {
-    height: 10vh;
+    height: 12vh;
 }
 
 .footer .copyright {
     color: var(--white);
 }
 
-.footer .fa-brands {
+.fa-brands {
     color: var(--turqoise);
     transition: 0.5s;
 }
