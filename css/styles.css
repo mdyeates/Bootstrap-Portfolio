@@ -58,6 +58,11 @@
     transform: translateY(-5px);
 }
 
+.static:hover {
+    opacity: 0;
+
+}
+
 
 
 /* || GLOBAL */
@@ -167,11 +172,13 @@ body {
     background-color: var(--grey);
     color: var(--white);
     transition: 0.25s ease-in-out;
-
 }
 
+.static {
+    position: absolute;
+    height: 34vh;
 
-
+}
 
 /* Story, Skills, Contact */
 .about {
