@@ -203,7 +203,6 @@ body {
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
-    
 }
 
 .skillText {
@@ -218,8 +217,7 @@ body {
 
 /* Footer */
 .footer {
-    height: 10vh;
-    margin-top: 10rem;
+height: 10vh;
 }
 
 .footer .copyright {
