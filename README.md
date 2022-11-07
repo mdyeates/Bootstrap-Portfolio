@@ -9,8 +9,10 @@ Summary:
 * A hero/jumbotron section highlighting my name and a compressed image
 * Each project is described in the portfolio section using bootstrap cards and grid
 * The skills I expect to learn are displayed with Iconify Icons
-* Contact information is included in the about me section
-* The footer section displays my socials with Font Awesome icons
+* Contact information is included in the same row as the about me section
+* The contact section displays my socials with Font Awesome icons
+* The footer is kept minimal to keep inlign with the design
+
 
 [Live Website](https://mdyeates.github.io/Bootstrap-Portfolio)
 
