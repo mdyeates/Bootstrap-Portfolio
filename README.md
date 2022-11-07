@@ -11,7 +11,7 @@ Summary:
 * The skills I expect to learn are displayed with Iconify Icons
 * Contact information is included in the same row as the about me section
 * The contact section displays my socials with Font Awesome icons
-* The footer is kept minimal to keep inlign with the design
+* The footer is kept minimal to keep with the design
 
 
 [Live Website](https://mdyeates.github.io/Bootstrap-Portfolio)
