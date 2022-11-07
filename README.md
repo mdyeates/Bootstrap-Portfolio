@@ -16,7 +16,7 @@ Summary:
 
 [Live Website](https://mdyeates.github.io/Bootstrap-Portfolio)
 
-![Gif](images/Bootstrap-Portfolio.gif)
+![Gif](images/bootstrapportfolio-readme.gif)
 
 ## Installation
 
