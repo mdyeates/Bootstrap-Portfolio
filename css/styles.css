@@ -181,6 +181,8 @@ body {
     background-color: var(--grey);
     color: var(--white);
     transition: 0.1s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
+
 }
 
 .card-img-top {
@@ -201,6 +203,7 @@ body {
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
+    
 }
 
 .skillText {
@@ -210,11 +213,13 @@ body {
 .cardStory {
     color: var(--white);
     background-color: var(--grey);
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
 }
 
 /* Footer */
 .footer {
-    height: 12vh;
+    height: 10vh;
+    margin-top: 10rem;
 }
 
 .footer .copyright {
