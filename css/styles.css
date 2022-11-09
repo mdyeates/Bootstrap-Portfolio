@@ -88,7 +88,7 @@ body {
 }
 
 .my {
-    color: #17B890;
+    color: var(--turqoise);
 }
 
 /* || CUSTOM STYLES */
@@ -101,6 +101,21 @@ body {
     background-attachment:fixed;
     background-repeat:no-repeat;
     background-color: var(--black);
+}
+
+.nameHero .smoke {
+    background:transparent url(../images/smoke.png) repeat top center;
+    background-attachment: fixed;
+    opacity: 0.35;
+    animation:nameSmoke 200s linear infinite;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
 }
 
 .nameHero h1 {
@@ -116,12 +131,8 @@ body {
     z-index: 2;
 }
 
-.myHero {
+.nameHero .myHero {
     animation: nameEntrance 3s ease-in-out;
-}
-
-.profilePhoto {
-    height: 20em;
 }
 
 .nameHero .btn {
@@ -136,61 +147,45 @@ body {
     animation-iteration-count:infinite;
 }
 
-.smoke {
-    background:transparent url(../images/smoke.png) repeat top center;
-    background-attachment: fixed;
-    opacity: 0.35;
-    animation:nameSmoke 200s linear infinite;
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    width:100%;
-    height:100%;
-    display:block;
-}
-
 /* Header */
 .navbar {
     background-color: var(--black);
 }
 
-.navbar-toggler {
+.navbar .navbar-brand .logo {
+    transition: 0.5s;
+}
+
+.navbar .navbar-toggler {
     color: var(--white);
 }
 
-.navbar-nav a{
+.navbar .navbar-nav a{
     transition: 0.5s;
 }
 
-.dropdown-menu {
+.navbar .navbar-nav .dropdown-menu {
     margin-right: 12rem;
 }
 
-.dropdown-item {
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
     color:var(--turqoise)
-}
-
-.logo {
-    transition: 0.5s;
 }
   
 /* Projects */
-.cardProject {
+.allProjects .cardProject {
     background-color: var(--grey);
     color: var(--white);
     transition: 0.1s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
-
 }
 
-.card-img-top {
+.allProjects .cardProject .card-img-top {
     height: 40vh;
     object-fit: cover;
 }
 
-.static {
+.allProjects .cardProject .static {
     position: absolute;
     transition: 1s ease-in-out;
 }
@@ -205,14 +200,19 @@ body {
     background-attachment:fixed;
 }
 
-.skillText {
+.about .skillText {
     font-size: 10px;
 }
 
-.cardStory {
+.about .cardStory {
     color: var(--white);
     background-color: var(--grey);
     box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
+}
+
+.about .fa-brands {
+    color: var(--turqoise);
+    transition: 0.5s;
 }
 
 /* Footer */
@@ -220,13 +220,12 @@ body {
 height: 10vh;
 }
 
-.footer .copyright {
-    color: var(--white);
+.footer .logo {
+    transition: 0.5s;
 }
 
-.fa-brands {
-    color: var(--turqoise);
-    transition: 0.5s;
+.footer .copyright {
+    color: var(--white);
 }
 
 /* || Media Queries */
