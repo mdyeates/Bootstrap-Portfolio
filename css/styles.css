@@ -192,12 +192,12 @@ body {
 
 /* Story*/
 .about {
-    height: 100vh;
     background-image: url(../images/nameimagebw-min.jpg);
     background-position:top;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
+    padding-bottom: 10px;
 }
 
 .about .skillText {
@@ -216,9 +216,7 @@ body {
 }
 
 /* Footer */
-.footer {
-height: 10vh;
-}
+
 
 .footer .logo {
     transition: 0.5s;
@@ -231,7 +229,7 @@ height: 10vh;
 /* || Media Queries */
 /* Removes bg image & animations to improve mobile speed + scale text */
 @media (max-width:425px) {
-    .about, .nameHero, .smoke {
+    .about, .nameHero, .nameHero .smoke {
         background-image: none;
     }
     
