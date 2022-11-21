@@ -143,7 +143,7 @@ body {
 }
 
 .nameHero img {
-  width: 280px;
+  width: 250px;
   padding: 20px;
   animation: nameEntrance 1.75s ease-in-out;
 }
